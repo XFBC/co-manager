@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
-      <p className="text-4xl bg-red-400">Fbc test</p>
+      <p className="text-4xl">Fbc test</p>
     </div>
   )
 }
