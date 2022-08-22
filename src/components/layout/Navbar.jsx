@@ -11,7 +11,7 @@ export default function Navbar() {
         <Link to="/" className=" hover:text-yellow-300 font-normal">
           Home
         </Link>
-        <Link to="/newproject" className=" hover:text-yellow-300 font-normal">
+        <Link to="/projects" className=" hover:text-yellow-300 font-normal">
           Projetos
         </Link>
         <Link to="/company" className=" hover:text-yellow-300 font-normal">
