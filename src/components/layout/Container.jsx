@@ -1,7 +1,9 @@
 export default function Container(props) {
   return (
-    <div className="container w-[1280px] bg-gray-400 m-auto flex justify-between p-2 h-[600px] ">
-      {props.children}
+    <div>
+      <div className=" bg-gray-400 w-[85%] m-auto h- px-4 h-[520px]">
+        {props.children}
+      </div>
     </div>
   )
 }
