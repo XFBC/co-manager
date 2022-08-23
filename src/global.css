@@ -8,10 +8,15 @@
   color: white;
   @apply bg-gray-600;
   font-family: 'Roboto', sans-serif;;
+  font-weight: 300;
 }
 
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+input, select{
+  @apply text-black;
 }
