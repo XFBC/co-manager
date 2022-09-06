@@ -21,6 +21,17 @@
       "coManager": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "projeto test",
+      "budget": "20000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "coManager": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [

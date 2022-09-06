@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { BsPencil, BsTrash } from "react-icons/bs";
+import { Link } from 'react-router-dom'
+import { BsPencil, BsTrash } from 'react-icons/bs'
 export default function ProjectCard({
   id,
   name,
@@ -15,7 +15,7 @@ export default function ProjectCard({
         <p> {category}</p>
         <div className="flex flex-row gap-2">
           <div>
-            <Link to="">
+            <Link to={`/project/${id}`}>
               {' '}
               <BsPencil /> Editar
             </Link>
